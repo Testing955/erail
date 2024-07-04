@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-09T10:42:22 IST" name="Suite" finished-at="2024-06-09T10:42:38 IST" duration-ms="15423">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_Fromsearch.setup_fromsearchstation()[pri:0, instance:TestCases.TC_001_Fromsearch@54c5a2ff]" name="setup_fromsearchstation" class="TestCases.TC_001_Fromsearch"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC_001_Fromsearch.setup_fromsearchstation()[pri:0, instance:TestCases.TC_001_Fromsearch@54c5a2ff]" name="setup_fromsearchstation" class="TestCases.TC_001_Fromsearch"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TC_001_Fromsearch.setup_fromsearchstation()[pri:0, instance:TestCases.TC_001_Fromsearch@54c5a2ff]" name="setup_fromsearchstation" class="TestCases.TC_001_Fromsearch"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-06-09T10:42:22 IST" name="ErailTest" finished-at="2024-06-09T10:42:38 IST" duration-ms="15423">
+      <class name="TestCases.TC_001_Fromsearch">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_001_Fromsearch@54c5a2ff]" started-at="2024-06-09T10:42:23 IST" name="setup" finished-at="2024-06-09T10:42:36 IST" duration-ms="13292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="setup_fromsearchstation()[pri:0, instance:TestCases.TC_001_Fromsearch@54c5a2ff]" started-at="2024-06-09T10:42:36 IST" name="setup_fromsearchstation" finished-at="2024-06-09T10:42:38 IST" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_fromsearchstation -->
+      </class> <!-- TestCases.TC_001_Fromsearch -->
+    </test> <!-- ErailTest -->
+  </suite> <!-- Suite -->
+</testng-results>
